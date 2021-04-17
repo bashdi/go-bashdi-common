@@ -9,6 +9,6 @@ func PrintArray(array ...interface{}) {
 	defer fmt.Println("array end;")
 
 	for i, v := range array {
-		fmt.Printf("index:\t%d \t\tvalue:%v\n", i, v)
+		fmt.Printf("index:\t%d \t\tvalue:\t%v\n", i, v)
 	}
 }
